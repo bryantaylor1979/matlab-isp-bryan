@@ -15,6 +15,7 @@ classdef TestPatterns   <   handle
             close all
             clear classes
             
+
             %%
             obj = TestPatterns('mode','greyscale')
             imshow(obj.image)
